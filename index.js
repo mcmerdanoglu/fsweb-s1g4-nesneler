@@ -99,9 +99,9 @@ const degerlendirmeler = [
 */
 
 
-function DegerledirmeEkle(/*Kodlar buraya */){
-	/*Kodlar buraya */
-	
+function DegerledirmeEkle(degerlendirmeler, isimDeger, puanDeger, geribildirimDeger){
+	/*Kodlar buraya */const yeniDegerlendirme= [... degerlendirmeler, {isim:isimDeger, puan:puanDeger, geribildirim:geribildirimDeger}];
+	return yeniDegerlendirme;
 }
 
 

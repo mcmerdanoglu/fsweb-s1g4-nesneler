@@ -30,10 +30,10 @@ function MenuElemaniOlustur(isimDeger, fiyatDeger, kategoriDeger){
 	3. Tüm döndürülen sonuçları konsolda gözlemleyin (console.log)
 	
 	Örnek: MenuElemaniOlustur("Karışık Pizza",5,"Pizzalar") şunu döndürür: {isim:"Karışık Pizza",fiyat:5,kategori:"Pizzalar"}
-*/
-
-
-
+*/MenuElemaniOlustur("Kahve", 10, "İçecekler");
+  MenuElemaniOlustur("Döner", 50, "Ana Yemekler");
+  MenuElemaniOlustur("San Sebastian Cheesecake", 40, "Tatlılar");
+  console.log(MenuElemaniOlustur("Kahve", 10, "İçecekler"));
 /* Görev 2: 
 	Özel bir öğle yemeği yiyorsun! Öğretmen ve öğrencilere %25, diğer kişilere %10 indirim var. Aşağıdaki burger nesnesine, indirimi fiyatı otomatik olarak hesaplayan bir metot ekleyin.
 	

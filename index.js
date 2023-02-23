@@ -117,9 +117,10 @@ function DegerledirmeEkle(degerlendirmeler, isimDeger, puanDeger, geribildirimDe
 */
 
 
-function AnahtardanDegerlendirmeAl(/*Kodlar buraya*/) {
-	/*Kodlar buraya*/
-
+function AnahtardanDegerlendirmeAl(degerlendirmeler, i) {
+	/*Kodlar buraya*/ 
+	const sunulacakDegerlendirme = `${degerlendirmeler[i].isim} isimli kişi ${degerlendirmeler[i].puan} puan verdi ve şunları yazdı: ${degerlendirmeler[i].geribildirim}`;
+	return sunulacakDegerlendirme;
 }
 
 
@@ -137,8 +138,10 @@ function AnahtardanDegerlendirmeAl(/*Kodlar buraya*/) {
 */
 
 
-function SonDegerlendirmeyiAl(/*Kodlar buraya*/) {
-	/*Kodlar buraya*/
+function SonDegerlendirmeyiAl(degerlendirmeler) {
+	/*Kodlar buraya*/ const sonEleman = degerlendirmeler[degerlendirmeler.length-1];
+	const sunulacakSonDegerlendirme = `${sonEleman.isim} isimli kişi ${sonEleman.puan} puan verdi ve şunları yazdı: ${sonEleman.geribildirim}`;
+	return sunulacakSonDegerlendirme;
 } 
 
 

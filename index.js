@@ -15,8 +15,9 @@ const serpmeKahvalti = {isim: "Serpme Kahvaltı", fiyat: 16, kategori:"Kahvaltı
 */
 
 
-function MenuElemaniOlustur(/*Kodlar buraya*/){
-	/*Kodlar buraya*/
+function MenuElemaniOlustur(isimDeger, fiyatDeger, kategoriDeger){
+	/*Kodlar buraya*/const nesne = {isim: isimDeger, fiyat: fiyatDeger, kategori:kategoriDeger}
+	return nesne;
 }
 
 
